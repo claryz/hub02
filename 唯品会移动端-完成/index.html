@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/swiper-5.3.6/package/css/swiper.min.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="box">
+        <!-- 搜索框头部 -->
+        <div class="header clearfix">
+
+            <div class="headerBox clearfix">
+                <span>登录</span>
+                <form action="">
+                    <span class="search"></span>
+                    <input type="search" placeholder="大家正在搜索：奥特曼">
+                </form>
+                <div class="fourdiv">
+                    <img src="./images/菜单.png" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+
+        </div>
+        <!-- 今日推荐导航栏nav -->
+        <div class="nav">
+            <div class="navli">
+                <ul>
+                    <li class="li1"><a href="#">推荐</a></li>
+                    <li class="li2"><a href="#">配饰</a></li>
+                    <li class="li2"><a href="#">女装</a></li>
+                    <li class="li2"><a href="#">男装</a></li>
+                    <li class="li2"><a href="#">运动</a></li>
+                    <li class="li2"><a href="#">家居</a></li>
+                    <li class="li2"><a href="#">休闲</a></li>
+                </ul>
+                <div class="bot">
+                    <img src="./images/下拉.png" style="width: 15px; height: 15px;">
+                </div>
+            </div>
+        </div>
+        <div class="con">
+            <!-- lunbitu伦比图 -->
+            <div class="loop">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./images/loop01.png"></div>
+                        <div class="swiper-slide"><img src="./images/loop02.png"></div>
+                        <div class="swiper-slide"><img src="./images/loop03.png"></div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="product">
+                <!-- shige是10个服装分类 -->
+                <div class="classten">
+                    <div class="logop">
+                        <img src="./images/logo.png">
+                    </div>
+                    <div class="ten">
+                        <ul>
+                            <li>
+                                <img src="./images/nav0.png" alt="">
+                                <p>女装</p>
+                            </li>
+                            <li>
+                                <img src="./images/nav1.png" alt="">
+                                <p>男装</p>
+                            </li>
+                            <li>
+                                <img src="./images/nav2.png" alt="">
+                                <p>童装</p>
+                            </li>
+                            <li>
+                                <img src="./images/nav3.png" alt="">
+                                <p>运动户外</p>
+                            </li>
+                            <li>
+                                <img src="./images/nav4.png" alt="">
+                                <p>手表配饰</p>
+                            </li>
+                            <li>
+                                <img src="./images/nav5.png" alt="">
+                                <p>清仓甩货</p>
+                            </li>
+                            <li>
+                                <img src="./images/nav6.png" alt="">
+                                <p>视频</p>
+                            </li>
+                            <li>
+                                <img src="./images/nav7.png" alt="">
+                                <p>天猫</p>
+                            </li>
+                            <li>
+                                <img src="./images/nav4.png" alt="">
+                                <p>天猫</p>
+                            </li>
+                            <li>
+                                <img src="./images/nav2.png" alt="">
+                                <p>天猫</p>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <!-- fuzhuang服装展示 -->
+                <div class="play">
+                    <div class="picture">
+                        <img src="./images/fontPage.png">
+                    </div>
+                    <div class=" main clearfix">
+                        <ul>
+                            <li>
+                                <div>
+                                    <img src="./images/product03.png">
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <img src="./images/product02.png">
+                                </div>
+                            </li>
+                            <li>
+                                <div style="border: none ">
+                                    <img src="./images/product01.png">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="shopcar">
+        <img src="./images/购物车空.png" style="width: 30px;height: 30px;">
+    </div>
+</body>
+<script src="./lib/swiper-5.3.6/package/js/swiper.min.js"></script>
+<script src="./js/index.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        autoplay: true,
+        direction: 'horizontal',
+        speed: 1000
+    });
+</script>
+
+</html>

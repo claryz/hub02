@@ -1,0 +1,185 @@
+.box{
+    width: 100%;
+    position: relative;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 111;
+    background-color: rgb(240, 240, 240);
+}
+.header .headerBox{
+    position: relative;
+}
+
+.header .headerBox .search{
+    width: 60px;
+    height: 40px;
+    /* background-color: rgb(235, 231, 231); */
+    background-image: url(../images/sprites.png);
+    background-size: 200px 200px;
+    background-position: -60px -109px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 5px;
+    left: 58px;
+}
+/* sousuoluang */
+.header .headerBox form{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 6px;
+    /* background-color: #cccccc; */
+}
+.header .headerBox form input{
+    width: 100%;
+    height: 28px;
+    border-radius: 20px;
+    padding-left: 30px;
+    background-color: rgb(231, 235, 235);
+}
+.header .headerBox span{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 14px;
+    color: rgb(15, 14, 14);
+}
+.fourdiv{
+    /* background-color: rosybrown; */
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+/* Nav一条导航栏 */
+.nav{
+    /* background-color: blanchedalmond; */
+    width: 100%;
+    /* height: 80px; */
+    padding-top: 50px;
+    padding-left: 5px;
+    background-color: rgb(240, 240, 240);
+}
+.navli{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(240, 240, 240);
+}
+.navli li{
+    list-style: none;
+    float: left;
+    width: 14%;
+    font-size: 14px;
+}
+.nav .li1 a{
+    color: red; 
+    
+}
+.bot{
+    /* background-color: royalblue; */
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 3px;
+    top: 52px;
+}
+
+/* 轮播图 */
+.con{
+    margin-left: 10px;
+    margin-right: 10px;
+    /* margin-top: 30px; */
+}
+.swiper-container{
+    width: 100%;
+    height: 170px;
+}
+.swiper-slide{
+    width: 100%;
+    height: 170px;
+}
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+}
+/* 十个小商品ten */
+.logop{
+    width: 100%;
+}
+.logop img{
+    width: 100%;
+    height: 100%;
+}
+.product{
+    background-color: #fef7eb;
+}
+.ten{
+    width: 100%;
+    height: 147px;
+    padding: 0 3%;
+    
+}
+.ten ul li{
+    width: 20%;
+    float: left;
+    margin: 8px 0;
+    text-align: center;
+}
+.ten ul li img{
+    width: 40px;
+    height: 40px;
+}
+.ten ul li p{
+    font-size: 12px;
+    color: rgb(148, 143, 143);
+    text-align: center;
+}
+
+/* 三个服装 */
+.picture{
+    width: 100%;
+    margin:auto;
+    
+}
+.picture img{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    border-radius: 20px;
+    width: 96%;
+    margin: auto;
+}
+.main ul{
+    border-radius: 20px;
+}
+.main ul li{
+    width: 33.3%;
+    float: left;
+    text-align: center
+}
+.main ul li div{
+    width: 100%;
+}
+.main ul li div img{
+    width: 95%;
+}
+/* dibu底部定位购物车 */
+.shopcar{
+    width: 40px;
+    height: 40px;
+    background-color: #707070;
+    border-radius: 50%;
+    position: fixed;
+    left: 20px;
+    bottom: 50px;
+    padding: 5px;
+}
